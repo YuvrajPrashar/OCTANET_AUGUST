@@ -1,0 +1,240 @@
+* {
+  background-color: rgb(250, 243, 233);
+}
+
+.NavBar {
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavBar p {
+  margin: 10px 10px;
+  font-size: 30px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  width: 600px;
+  height: 50px;
+}
+.Buttons button {
+  width: 180px;
+  font-size: large;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.Buttons button:hover {
+  background-color: rgb(230, 219, 207);
+  font-weight: lighter;
+  border-radius: 8px;
+  font-size: larger;
+  font-family: "Cabin", sans-serif;
+}
+.Banner {
+  margin: 10px 10px 10px 10px;
+  width: 50%;
+  padding: 5px;
+  height: 600px;
+  width: 1870px;
+  background-image: url(./banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: 1870px 900px;
+}
+.Banner div {
+  background-color: transparent;
+}
+
+.Banner div p {
+  background-color: transparent;
+}
+
+.Banner .name p {
+  text-align: center;
+  font-size: 180px;
+  margin: 225px 60px 60px 60px;
+  color: rgba(255, 255, 255, 0.591);
+  font-family: "Libre Baskerville", serif;
+  /* text-shadow: 3px 3px 3px rgb(255, 255, 255); */
+}
+
+/* .Banner .qualities p {
+  margin: 0px 1px 1px 1px;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-size: 50px;
+} */
+
+.Home img {
+  border-radius: 20px;
+}
+.Home {
+  position: relative;
+  text-align: center;
+}
+
+.Premium {
+  color: rgb(162, 41, 41);
+  font-size: 80px;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+.Exclusive {
+  font-size: 30px;
+  text-align: center;
+  margin: 1px 1px 1px 1px;
+}
+
+.Container {
+  margin: 70px;
+  display: flex;
+}
+
+.Fac {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.Fac img {
+  border-radius: 20px;
+}
+
+.Heading {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.SubHeading {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Ammenities {
+  background: linear-gradient(to top, #e0d1ba 0%, #f7dcba 100%);
+  margin: 30px 10px 10px 10px;
+  padding-bottom: 50px;
+}
+.SpecialAmmenities {
+  padding: 50px 10px 10px 10px;
+  color: #45171d;
+  font-weight: bold;
+  background-color: transparent;
+  text-align: center;
+  font-size: 90px;
+}
+
+.Ammenities p {
+  background-color: transparent;
+  margin: 20px 20px 20px 20px;
+  justify-content: space-between;
+  font-size: 30px;
+  text-align: center;
+  color: #a55233;
+}
+.AmmCont {
+  margin: 20px 10px 10px 20px;
+  width: auto;
+  padding: 100px;
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+}
+.amm {
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  flex: 25%;
+}
+
+.amm img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 90%;
+}
+
+.amm p {
+  margin: 0px 0px 0px 0px;
+  background-color: transparent;
+  color: #402a23;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer div {
+  background-color: rgb(230, 219, 207);
+}
+
+footer div ul {
+  background-color: rgb(230, 219, 207);
+}
+
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 10px 10px 10px;
+  background-color: rgb(230, 219, 207);
+  height: 30vh;
+}
+
+.Footer p {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
+  text-decoration: underline;
+  color: #e84a5f;
+  background-color: rgb(230, 219, 207);
+}
+
+.Footer li {
+  font-size: 30px;
+  margin: 10px 10px 10px 10px;
+  align-items: center;
+  list-style: none;
+  background-color: rgb(230, 219, 207);
+}
+.AllLocations {
+  margin: 10px 10px 10px 10px;
+}
+.Locatiion {
+  text-align: center;
+  font-size: 170px;
+  text-decoration: underline;
+  color: #45171d;
+  margin: 10px 10px 10px 10px;
+}
+.OtherText {
+  margin: 30px 30px 30px 30px;
+  text-align: center;
+  font-size: 40px;
+}
+.ImageContainer {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.differentLocatiions img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 25px;
+}
+.ExtraText p {
+  margin: 50px 50px 50px 50px;
+  font-size: 35px;
+  text-align: center;
+}
