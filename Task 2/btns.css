@@ -1,0 +1,11 @@
+.modify {
+  background-color: #307672;
+}
+.delete {
+  background-color: #144d53;
+}
+.Completed {
+  background-color: #1a3c40;
+  /* border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; */
+}

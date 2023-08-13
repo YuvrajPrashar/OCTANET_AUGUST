@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="btns.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <div class="Title">To-Do List</div>
+      <div class="input">
+        <form>
+          <input type="text" placeholder="Enter your task" class="Input" />
+          <button type="button" class="Add">Add</button>
+        </form>
+      </div>
+      <div class="ListContainer">
+        <ul>
+          <li class="ListElements">
+            <div class="Tasks">First Task</div>
+            <div class="btns">
+              <button
+                class="modify"
+                type="button"
+                onclick="EditOrSaveTask(this)"
+              >
+                Modify
+              </button>
+              <button class="delete" type="button" onclick="RemoveTask(this)">
+                Delete
+              </button>
+              <button
+                class="Completed"
+                type="button"
+                onclick="CompleteTask(this)"
+              >
+                Done
+              </button>
+            </div>
+          </li>
+          <li class="ListElements">
+            <div class="Tasks">Second Task</div>
+            <div class="btns">
+              <button
+                class="modify"
+                type="button"
+                onclick="EditOrSaveTask(this)"
+              >
+                Modify
+              </button>
+              <button class="delete" type="button" onclick="RemoveTask(this)">
+                Delete
+              </button>
+              <button
+                class="Completed"
+                type="button"
+                onclick="CompleteTask(this)"
+              >
+                Done
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
